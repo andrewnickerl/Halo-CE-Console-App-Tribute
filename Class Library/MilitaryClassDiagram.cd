@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Vehicle" Collapsed="true">
-    <Position X="11.5" Y="0.75" Width="1.5" />
+    <Position X="9.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Vehicle.cs</FileName>
@@ -22,14 +22,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Mission" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Mission.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Equipment" Collapsed="true">
-    <Position X="11.75" Y="4.5" Width="1.5" />
+    <Position X="10" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Equipment.cs</FileName>
@@ -157,7 +157,7 @@
   <Class Name="MilitaryClassLibrary.Jackal" Collapsed="true">
     <Position X="3" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Jackal.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -176,70 +176,70 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.HumanVehicle" Collapsed="true">
-    <Position X="9.5" Y="1.75" Width="1.5" />
+    <Position X="7.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HumanVehicle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.CovenantVehicle" Collapsed="true">
-    <Position X="13.5" Y="1.75" Width="1.5" />
+    <Position X="11.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CovenantVehicle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.HealthKit" Collapsed="true">
-    <Position X="10.25" Y="5.5" Width="1.5" />
+    <Position X="8.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HealthKit.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Overshield" Collapsed="true">
-    <Position X="11.75" Y="5.5" Width="1.5" />
+    <Position X="10" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Overshield.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Cloak" Collapsed="true">
-    <Position X="13.25" Y="5.5" Width="1.5" />
+    <Position X="11.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cloak.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Scorpion" Collapsed="true">
-    <Position X="8.75" Y="2.75" Width="1.5" />
+    <Position X="7" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Scorpion.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Warthog" Collapsed="true">
-    <Position X="10.25" Y="2.75" Width="1.5" />
+    <Position X="8.5" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Warthog.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Ghost" Collapsed="true">
-    <Position X="12" Y="2.75" Width="1.5" />
+    <Position X="10.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Ghost.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Banshee" Collapsed="true">
-    <Position X="13.5" Y="2.75" Width="1.5" />
+    <Position X="11.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Banshee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Wraith" Collapsed="true">
-    <Position X="15" Y="2.75" Width="1.5" />
+    <Position X="13.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Wraith.cs</FileName>

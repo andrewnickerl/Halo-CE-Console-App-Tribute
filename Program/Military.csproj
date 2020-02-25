@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Class Library\MilitaryClassLibrary.csproj" />
-    <ProjectReference Include="..\MilitaryClassLibrary\MilitaryClassLibrary.csproj" />
   </ItemGroup>
 
 </Project>
