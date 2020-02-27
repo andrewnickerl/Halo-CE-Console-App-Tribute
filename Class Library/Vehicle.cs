@@ -6,5 +6,6 @@ namespace MilitaryClassLibrary
 {
     public class Vehicle
     {
+
     }
 }

@@ -57,7 +57,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.CovenantWeapon" Collapsed="true">
-    <Position X="6.25" Y="5.75" Width="1.5" />
+    <Position X="6.5" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CovenantWeapon.cs</FileName>
@@ -106,28 +106,28 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.PlasmaPistol" Collapsed="true">
-    <Position X="5.5" Y="7" Width="1.5" />
+    <Position X="5.75" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PlasmaPistol.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.PlasmaRifle" Collapsed="true">
-    <Position X="7" Y="7" Width="1.5" />
+    <Position X="7.25" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PlasmaRifle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Needler" Collapsed="true">
-    <Position X="7" Y="7.75" Width="1.5" />
+    <Position X="7.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Needler.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.PlasmaGrenade" Collapsed="true">
-    <Position X="5.5" Y="7.75" Width="1.5" />
+    <Position X="5.75" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PlasmaGrenade.cs</FileName>
@@ -157,7 +157,7 @@
   <Class Name="MilitaryClassLibrary.Jackal" Collapsed="true">
     <Position X="3" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Jackal.cs</FileName>
     </TypeIdentifier>
   </Class>
