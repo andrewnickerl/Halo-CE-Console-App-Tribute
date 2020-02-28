@@ -6,9 +6,10 @@ namespace MilitaryClassLibrary
 {
     public class Marine : UnscTroop
     {
-         public Marine(int hp, Weapon weapon)
+         public Marine(Weapon weapon)
         {
-            this.Hp = hp;
+            this.CurrentHp = 100;
+            this.MaxHp = 100;
             this.EquippedWeapon = weapon;
         }
     }

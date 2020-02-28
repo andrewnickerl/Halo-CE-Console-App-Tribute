@@ -6,9 +6,10 @@ namespace MilitaryClassLibrary
 {
     public class Spartan : UnscTroop
     {
-        public Spartan(int hp, Weapon weapon)
+        public Spartan(Weapon weapon)
         {
-            this.Hp = hp;
+            this.CurrentHp = 500;
+            this.MaxHp = 500;
             this.EquippedWeapon = weapon;
         }
     }

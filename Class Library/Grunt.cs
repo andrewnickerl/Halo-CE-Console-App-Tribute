@@ -6,9 +6,10 @@ namespace MilitaryClassLibrary
 {
     public class Grunt : Covenant
     {
-        public Grunt(int hp, Weapon weapon)
+        public Grunt(Weapon weapon)
         {
-            this.Hp = hp;
+            this.CurrentHp = 50;
+            this.MaxHp = 50;
             this.EquippedWeapon = weapon;
         }
     }

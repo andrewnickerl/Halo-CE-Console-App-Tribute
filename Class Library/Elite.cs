@@ -6,9 +6,10 @@ namespace MilitaryClassLibrary
 {
     public class Elite : Covenant
     {
-        public Elite(int hp, Weapon weapon)
+        public Elite(Weapon weapon)
         {
-            this.Hp = hp;
+            this.CurrentHp = 200;
+            this.MaxHp = 200;
             this.EquippedWeapon = weapon;
         }
     }

@@ -6,9 +6,10 @@ namespace MilitaryClassLibrary
 {
     public class Jackal : Covenant
     {
-        public Jackal(int hp, Weapon weapon)
+        public Jackal(Weapon weapon)
         {
-            this.Hp = hp;
+            this.CurrentHp = 75;
+            this.MaxHp = 75;
             this.EquippedWeapon = weapon;
         }
     }

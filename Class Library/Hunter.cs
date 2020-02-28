@@ -6,9 +6,10 @@ namespace MilitaryClassLibrary
 {
     public class Hunter : Covenant
     {
-        public Hunter(int hp, Weapon weapon)
+        public Hunter(Weapon weapon)
         {
-            this.Hp = hp;
+            this.CurrentHp = 300;
+            this.MaxHp = 300;
             this.EquippedWeapon = weapon;
         }
     }
