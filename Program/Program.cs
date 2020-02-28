@@ -31,16 +31,16 @@ namespace Military
             PlasmaGrenade plasmaGrenade = new PlasmaGrenade();
 
             //UNSC Troops
-            Spartan john117 = new Spartan(1000, ar);
-            Marine marine1 = new Marine();
-            Marine marine2 = new Marine();
-            Marine marine3 = new Marine();
-            Marine marine4 = new Marine();
-            Marine marine5 = new Marine();
-            Marine marine6 = new Marine();
-            Marine marine7 = new Marine();
-            Marine marine8 = new Marine();
-            Marine marine9 = new Marine();
+            Spartan john117 = new Spartan(ar);
+            Marine marine1 = new Marine(ar);
+            Marine marine2 = new Marine(ar);
+            Marine marine3 = new Marine(magnum);
+            Marine marine4 = new Marine(rl);
+            Marine marine5 = new Marine(magnum);
+            Marine marine6 = new Marine(ar);
+            Marine marine7 = new Marine(rl);
+            Marine marine8 = new Marine(magnum);
+            Marine marine9 = new Marine(ar);
 
             //UNSC Vehicles
             Pelican pelican = new Pelican();
