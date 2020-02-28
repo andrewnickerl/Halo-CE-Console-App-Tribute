@@ -8,9 +8,9 @@ namespace Military
     {
         static void Main(string[] args)
         {
-            /*This program will utilize the class library "MilitaryClassLibrary"
-             * in order to provide a tribute to Halo: Combat Evolved, allowing the user 
-             * to run through a console app version of the fourth campaign level of the
+            /*This console app will utilize the class library "MilitaryClassLibrary"
+             * by way of tribute to Halo: Combat Evolved, allowing the user 
+             * to run through a the storyline of the fourth campaign level of the
              * game.  In this application the user will execute an assault from human (UNSC)
              * forces led by Spartan John-117 (Master Chief) on an island on the Halo 
              * construct to locate what the Covenant refers to as "The Silent Cartographer".
@@ -29,6 +29,8 @@ namespace Military
             PlasmaRifle plasmaRifle = new PlasmaRifle();
             Needler needler = new Needler();
             PlasmaGrenade plasmaGrenade = new PlasmaGrenade();
+            EnergySword energySword = new EnergySword();
+            EnergyCannon energyCannon = new EnergyCannon();
 
             //UNSC Troops
             Spartan john117 = new Spartan(ar);
@@ -47,18 +49,17 @@ namespace Military
             Warthog warthog = new Warthog();
 
             //Covenant Troops
-            Elite elite1 = new Elite();
-            Elite elite2 = new Elite();
-            Elite elite3 = new Elite();
-            Elite elite4 = new Elite();
-            Grunt grunt1 = new Grunt();
-            Grunt grunt2 = new Grunt();
-            Jackal jackal1 = new Jackal();
-            Jackal jackal2 = new Jackal();
-            Hunter hunter1 = new Hunter();
-            Hunter hunter2 = new Hunter();
-
-
+            Elite elite1 = new Elite(plasmaRifle);
+            Elite elite2 = new Elite(plasmaRifle);
+            Elite elite3 = new Elite(plasmaRifle);
+            Elite elite4 = new Elite(energySword);
+            elite4.ActiveCamo = true;
+            Grunt grunt1 = new Grunt(plasmaPistol);
+            Grunt grunt2 = new Grunt(plasmaPistol);
+            Jackal jackal1 = new Jackal(needler);
+            Jackal jackal2 = new Jackal(needler);
+            Hunter hunter1 = new Hunter(energyCannon);
+            Hunter hunter2 = new Hunter(energyCannon);
 
             //Covenant Vehicles
             Spirit spirit = new Spirit();
