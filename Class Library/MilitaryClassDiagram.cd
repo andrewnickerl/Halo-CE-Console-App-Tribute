@@ -17,14 +17,14 @@
   <Class Name="MilitaryClassLibrary.Troop" Collapsed="true">
     <Position X="2.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>Troop.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Mission" Collapsed="true">
     <Position X="6.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Mission.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -84,7 +84,7 @@
       <FileName>SniperRifle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MilitaryClassLibrary.Pistol" Collapsed="true">
+  <Class Name="MilitaryClassLibrary.Magnum" Collapsed="true">
     <Position X="0.5" Y="7" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -133,11 +133,11 @@
       <FileName>PlasmaGrenade.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MilitaryClassLibrary.HumanTroop" Collapsed="true">
+  <Class Name="MilitaryClassLibrary.UnscTroop" Collapsed="true">
     <Position X="1.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>HumanTroop.cs</FileName>
+      <FileName>UnscTroop.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.Covenant" Collapsed="true">
@@ -157,7 +157,7 @@
   <Class Name="MilitaryClassLibrary.Jackal" Collapsed="true">
     <Position X="3" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Jackal.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -176,14 +176,14 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.HumanVehicle" Collapsed="true">
-    <Position X="7.75" Y="1.75" Width="1.5" />
+    <Position X="7" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HumanVehicle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.CovenantVehicle" Collapsed="true">
-    <Position X="11.75" Y="1.75" Width="1.5" />
+    <Position X="12.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CovenantVehicle.cs</FileName>
@@ -250,6 +250,20 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AssaultRifle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MilitaryClassLibrary.Spirit" Collapsed="true">
+    <Position X="14.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Spirit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MilitaryClassLibrary.Pelican" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pelican.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -6,5 +6,7 @@ namespace MilitaryClassLibrary
 {
     public class Mission
     {
+        public string Name { get; set; }
+        public string Objective { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MilitaryClassLibrary;
 
 namespace Military
@@ -7,19 +8,88 @@ namespace Military
     {
         static void Main(string[] args)
         {
-            Spartan john117 = new Spartan();
+            /*This program will utilize the class library "MilitaryClassLibrary"
+             * in order to provide a tribute to Halo: Combat Evolved, allowing the user 
+             * to run through a console app version of the fourth campaign level of the
+             * game.  In this application the user will execute an assault from human (UNSC)
+             * forces led by Spartan John-117 (Master Chief) on an island on the Halo 
+             * construct to locate what the Covenant refers to as "The Silent Cartographer".
+             * The Cartographer is a map room for the Halo construct, which will allow John-117
+             * to locate Halo's control center.
+             */
+
+            //UNSC Weapons
+            Magnum magnum = new Magnum();
             AssaultRifle ar = new AssaultRifle();
-            john117.EquipWeapon(ar);
+            RocketLauncher rl = new RocketLauncher();
+            Grenade grenade = new Grenade();
 
-            Jackal jackal = new Jackal();
+            //Covenant Weapons
             PlasmaPistol plasmaPistol = new PlasmaPistol();
-            CovenantWeapon shield = new CovenantWeapon();            
-            jackal.EquipWeapon(shield, plasmaPistol);
-            Console.WriteLine(jackal.EquippedWeapon);
+            PlasmaRifle plasmaRifle = new PlasmaRifle();
+            Needler needler = new Needler();
+            PlasmaGrenade plasmaGrenade = new PlasmaGrenade();
 
-            Troop troop = jackal;
+            //UNSC Troops
+            Spartan john117 = new Spartan(1000, ar);
+            Marine marine1 = new Marine();
+            Marine marine2 = new Marine();
+            Marine marine3 = new Marine();
+            Marine marine4 = new Marine();
+            Marine marine5 = new Marine();
+            Marine marine6 = new Marine();
+            Marine marine7 = new Marine();
+            Marine marine8 = new Marine();
+            Marine marine9 = new Marine();
 
-            
+            //UNSC Vehicles
+            Pelican pelican = new Pelican();
+            Warthog warthog = new Warthog();
+
+            //Covenant Troops
+            Elite elite1 = new Elite();
+            Elite elite2 = new Elite();
+            Elite elite3 = new Elite();
+            Elite elite4 = new Elite();
+            Grunt grunt1 = new Grunt();
+            Grunt grunt2 = new Grunt();
+            Jackal jackal1 = new Jackal();
+            Jackal jackal2 = new Jackal();
+            Hunter hunter1 = new Hunter();
+            Hunter hunter2 = new Hunter();
+
+
+
+            //Covenant Vehicles
+            Spirit spirit = new Spirit();
+
+            //Equipment
+            HealthKit hk = new HealthKit();
+            Overshield os = new Overshield();
+            Cloak activeCamo = new Cloak();
+
+            //Objective
+            Mission silentCartographer = new Mission();
+            silentCartographer.Name = "The Silent Cartographer";
+            silentCartographer.Objective = "Execute a USNC assault led by Spartan John-117 " +
+                "(Master Chief) on an island on the Halo construct to locate what the Covenant " +
+                "refers to as\"The Silent Cartographer\".  The Cartographer is a map room for " +
+                "the Halo construct. Accessing it will allow John-117 to locate Halo's control center.";
+
+            Run();
+
+        }
+
+        static bool Run()
+        {
+            try
+            {
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

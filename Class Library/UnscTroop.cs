@@ -4,7 +4,8 @@ using System.Text;
 
 namespace MilitaryClassLibrary
 {
-    public class HumanTroop : Troop
+    public class UnscTroop : Troop
     {
+
     }
 }

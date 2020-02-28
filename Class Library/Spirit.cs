@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MilitaryClassLibrary
 {
-    public class Magnum : HumanWeapon
+    public class Spirit : CovenantVehicle
     {
     }
 }
