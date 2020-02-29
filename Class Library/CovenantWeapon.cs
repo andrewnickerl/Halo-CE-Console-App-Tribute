@@ -25,9 +25,9 @@ namespace MilitaryClassLibrary
                     if (num < this.Accuracy)
                     {
                         troop.CurrentHp -= this.Damage;
-                        this.Battery = Battery - BatteryReducedPerUse;
-                        this.Accuracy *= 2; //resets accuracy
                     }
+                    this.Battery = Battery - BatteryReducedPerUse;
+                    this.Accuracy *= 2; //resets accuracy
                 }
                 //if no active camo
                 else
@@ -35,8 +35,8 @@ namespace MilitaryClassLibrary
                     if (num < this.Accuracy)
                     {
                         troop.CurrentHp -= this.Damage;
-                        this.Battery = Battery - BatteryReducedPerUse;
                     }
+                    this.Battery = Battery - BatteryReducedPerUse;
                 }
                 return true;
             }
