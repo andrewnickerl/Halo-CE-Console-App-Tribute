@@ -8,9 +8,10 @@ namespace MilitaryClassLibrary
     {
         public AssaultRifle()
         {
+            this.Name = "Assault Rifle";
             this.Accuracy = 75;
-            this.Ammo = 300;
-            this.Damage = 10;
+            this.Ammo = 80;
+            this.Damage = 20;
         }
     }
 }
