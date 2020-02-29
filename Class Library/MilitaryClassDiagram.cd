@@ -3,7 +3,7 @@
   <Class Name="MilitaryClassLibrary.Weapon" Collapsed="true">
     <Position X="6" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -52,14 +52,14 @@
   <Class Name="MilitaryClassLibrary.HumanWeapon" Collapsed="true">
     <Position X="2.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HumanWeapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MilitaryClassLibrary.CovenantWeapon" Collapsed="true">
     <Position X="9.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CovenantWeapon.cs</FileName>
     </TypeIdentifier>
   </Class>
