@@ -8,6 +8,7 @@ namespace MilitaryClassLibrary
     {
         public Pelican()
         {
+            this.Name = "Pelican";
             this.NumPassengers = 10;
             this.Weapon = null;
             this.Movement = "fly";
