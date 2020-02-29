@@ -8,6 +8,7 @@ namespace MilitaryClassLibrary
     {
         public RocketLauncher()
         {
+            this.Name = "Rocket Launcher";
             this.Accuracy = 90;
             this.Ammo = 6;
             this.Damage = 200;
