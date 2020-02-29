@@ -23,7 +23,7 @@ namespace Military
              */
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WindowWidth = 130;
-            Console.WindowHeight = 60;
+            Console.WindowHeight = 50;
             
             var halo = new[] {
 " .....                                        .                      ..                             .......''......               ",
